@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Rock, Paper, Scissors</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
   <link rel="icon" href="favicon.png">
 </head>
@@ -16,18 +17,20 @@
     <div class="game-container">
       <div class="player-container">
         <div class="name">Player 1</div>
-        <div id="player-1">👊</div>
+        <div id="player-1" aria-label="Rock" aria-hidden="true">👊</div>
       </div>
 
       <div id="result-area">Result Area</div>
 
       <div class="player-container">
         <div class="name">Player 2</div>
-        <div id="player-2">✋</div>
+        <div id="player-2" aria-label="Paper" aria-hidden="true">✋</div>
       </div>
     </div>
 
-    <div id="play-btn">Let's Play!</div>
+    <div id="play-btn">
+      <h1>Let's Play!</h1>
+    </div>
 
     <!-- Our Footer. Feel free to change to something you like! -->
     <footer class="footer">Made with ❤️ by <a href="https://evafmh.github.io/MyPortfolio/" class="link"

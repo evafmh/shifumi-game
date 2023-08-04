@@ -70,7 +70,7 @@ body {
   color: #F82414;
 }
 
-#play-btn {
+#play-btn h1 {
   font-size: 25px;
   padding: 15px 50px;
   background: #E60F17;
@@ -80,7 +80,7 @@ body {
   cursor: pointer;
 }
 
-#play-btn:hover {
+#play-btn h1:hover {
   background: #F82414;
 }
 
